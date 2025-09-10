@@ -1,0 +1,42 @@
+/* CSS RESET*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*GENERAL RULES*/
+
+h1 {
+    text-align: center;
+    color: rgb(251, 0, 197);
+}
+
+h5 {
+    margin-top: 10px;
+}
+
+/*CARDS*/
+
+.riga {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    min-height: 100px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.contact {
+    color: aqua;
+}
+
+img {
+    max-width: 100%;
+}
