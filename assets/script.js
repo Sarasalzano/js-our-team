@@ -58,8 +58,6 @@ for(index=0; index<teamMembers.length; index++) {
           <p class="contact">${member.email}</p>
       </div> 
     </div>`
-
-
 }
 console.log(cards);
 cardName.innerHTML= cards;
